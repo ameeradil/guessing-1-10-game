@@ -1,4 +1,4 @@
-# While loop is the magic in this task so don't understimate it
+# While loop is the magic in this task so don't understimate it#########################################################
 
 # fuction for the computer move
 from random import randint
@@ -38,6 +38,7 @@ def check(computer_choice_num, player_choice_num):
     attempts = [player_choice_num]  # start with the first guess
 
     # check the initial guess
+    # while loop to keep looping until he/she answer the right answer########################################################
     while player_choice_num != computer_choice_num:
         print('We need more tries until you get it correct.')
         player_choice_num = player_choice()  # ask for new guess
